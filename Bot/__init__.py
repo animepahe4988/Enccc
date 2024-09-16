@@ -15,7 +15,7 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN', '6924920834:AAF3HdgQrNurFEjAlyhYut6Q4OAy
 API_ID = int(os.environ.get('API_ID', 23902408)) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', '6a36a4ef2f07d63aeba7b53b99c64d73')# Telgram App hash  
 OWNER_ID = int(os.environ.get('OWNER_ID', 7179837246))
-MONGO_DB = os.environ.get("MONGO_DB", 'your mongodb') #MONGO DB FOR ANIME DATA
+MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://mex:rex@cluster7.jrzowqz.mongodb.net/?retryWrites=true&w=majority') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1002290310505)    # Must Fill This ,Add Bot As Admin In Log Channel
 BOT_NAME = os.environ.get('BOT_NAME', 'linencxbot')
 #<-----------Variables For 4GB Support (Optional)-------------->
